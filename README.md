@@ -15,7 +15,15 @@ In particolare, ogni offerta dovrà essere corredata dai seguenti dati (tutti ob
 
 ## Installazione
 
-Nella cartella client, lanciare il comando
+Nella cartella client, lanciare i comandi
 ```
-npm install
+yarn install
+yarn serve
 ```
+
+Nellla cartella server, lanciare il comando
+```
+composer update
+php artisan serve
+```
+
