@@ -21,9 +21,10 @@ yarn install
 yarn serve
 ```
 
-Nellla cartella server, lanciare il comando
+Nellla cartella server, modificare il file '.env' inserendo il nome del database, poi lanciare i comandi
 ```
 composer update
+php artisan migrate
 php artisan serve
 ```
 
